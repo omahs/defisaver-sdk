@@ -1,7 +1,6 @@
 import { ActionWithL2 } from '../../ActionWithL2';
 import { getAddr } from '../../addresses';
 import { EthAddress, uint256, bytes } from '../../types';
-import { AaveBorrowMode } from '../../utils/basic-utils';
 
 /**
  * Gets a flashloan from Aave v3 and opens a debt position instead of repaying
@@ -28,7 +27,7 @@ export class AaveV3FlashLoanCarryDebtAction extends ActionWithL2 {
       throw new Error('Arrays must be of the same length');
     }
     modes.forEach((mode) => {
-      if (mode !== AaveBorrowMode.STABLE.toString() && mode !== AaveBorrowMode.VARIABLE.toString()) {
+      if (mode.toString() !== '1' && mode.toString() !== '2') {
         throw new Error('Invalid borrow mode set');
       }
     });

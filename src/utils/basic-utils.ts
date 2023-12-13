@@ -4,8 +4,3 @@ export enum TokenizedVaultOperationId {
   WITHDRAW,
   REDEEM,
 }
-
-export enum AaveBorrowMode {
-  STABLE,
-  VARIABLE,
-}
