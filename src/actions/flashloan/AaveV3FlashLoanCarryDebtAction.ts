@@ -8,8 +8,7 @@ import { AaveBorrowMode } from '../../utils/basic-utils';
  *
  * @category Flashloans
  */
-export class AaveV3FLashLoanCarryDebtAction extends ActionWithL2 {
-
+export class AaveV3FlashLoanCarryDebtAction extends ActionWithL2 {
   /**
    * @param loanAmounts
    * @param tokens
@@ -28,7 +27,6 @@ export class AaveV3FLashLoanCarryDebtAction extends ActionWithL2 {
     if (tokens.length !== modes.length || tokens.length !== loanAmounts.length) {
       throw new Error('Arrays must be of the same length');
     }
-
     modes.forEach((mode) => {
       if (mode !== AaveBorrowMode.STABLE.toString() && mode !== AaveBorrowMode.VARIABLE.toString()) {
         throw new Error('Invalid borrow mode set');
