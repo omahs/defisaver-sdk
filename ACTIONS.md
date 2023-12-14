@@ -77,10 +77,10 @@
 <dd><p>CompoundPaybackAction - Payback borrowed tokens from Compound</p>
 </dd>
 <dt><a href="#CompoundSupplyAction">CompoundSupplyAction</a></dt>
-<dd><p>CompoundSupplyAction - Supply token to an Compound position</p>
+<dd><p>CompoundSupplyAction - Supply token to a Compound position</p>
 </dd>
 <dt><a href="#CompoundWithdrawAction">CompoundWithdrawAction</a></dt>
-<dd><p>CompoundWithdrawAction - Withdraw token from an Compound position</p>
+<dd><p>CompoundWithdrawAction - Withdraw token from a Compound position</p>
 </dd>
 <dt><a href="#CurveClaimFeesAction">CurveClaimFeesAction</a></dt>
 <dd></dd>
@@ -103,7 +103,7 @@
 <dt><a href="#CurveWithdrawAction">CurveWithdrawAction</a></dt>
 <dd></dd>
 <dt><a href="#DyDxWithdrawAction">DyDxWithdrawAction</a></dt>
-<dd><p>DyDxWithdrawAction - Withdraw token from an DyDx position</p>
+<dd><p>DyDxWithdrawAction - Withdraw token from a DyDx position</p>
 </dd>
 <dt><a href="#AaveV2FlashLoanAction">AaveV2FlashLoanAction</a></dt>
 <dd><p>Gets a flashloan from Aave v2</p>
@@ -644,7 +644,7 @@ CompoundPaybackAction - Payback borrowed tokens from Compound
 <a name="CompoundSupplyAction"></a>
 
 ## CompoundSupplyAction
-CompoundSupplyAction - Supply token to an Compound position
+CompoundSupplyAction - Supply token to a Compound position
 
 **Kind**: global class  
 <a name="new_CompoundSupplyAction_new"></a>
@@ -660,7 +660,7 @@ CompoundSupplyAction - Supply token to an Compound position
 <a name="CompoundWithdrawAction"></a>
 
 ## CompoundWithdrawAction
-CompoundWithdrawAction - Withdraw token from an Compound position
+CompoundWithdrawAction - Withdraw token from a Compound position
 
 **Kind**: global class  
 <a name="new_CompoundWithdrawAction_new"></a>
