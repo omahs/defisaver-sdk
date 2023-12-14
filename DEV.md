@@ -19,7 +19,7 @@ const recipe = new Recipe('exampleLiquitySupply', [
 - ```mappableArgs``` - if needed, have to be defined in ```constructor```
 - ```getAssetsToApprove``` - if action pulls tokens from the address, this should return an array of tokens that need to be approved (erc20 and/or nfts). [Return type object](https://github.com/defisaver/defisaver-sdk/blob/29aa14835240b977ceb053dfc947faae5d19ff9d/src/Action.ts#L195) is defined here.
 - ```getEthValue``` - needed if action is using pure ETH, then value is required when sending a tx
-- ```encodeInputs``` - if Action extends ActionWithL2, it can have custom function for gas savings e.g. pack address as 20 bytes instead od 32
+- ```encodeInputs``` - if Action extends ActionWithL2, it can have custom function for gas savings e.g. pack address as 20 bytes instead of 32
 - ```encodeForDsProxyCall```
 - ```encodeForL2DsProxyCall```
 - ```encodeForRecipe```
